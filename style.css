@@ -1,0 +1,96 @@
+body {
+  font-family: 'Rajdhani', sans-serif;
+  padding-bottom: 1vw;
+  background-color: #eddcd2;
+  color: #c38e70;
+}
+
+#contentGrid {
+  display: grid;
+  width: 98%;
+  height: 95%;
+  grid-template-rows: 40vw 40vw 40vw;
+  grid-template-columns: 33vw 33vw 33vw;
+  align-self: center;
+  justify-content: space-around;
+  gap: 0.5vw;
+}
+
+h1 {
+  font-size: 4vw;
+  text-align:center;
+  background-color: #774936;
+  margin-left: 7vw;
+  margin-right: 7vw;
+  color: #fff1e6;
+}
+
+h3 {
+  font-size: 2.5vw;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-self: center;
+}
+
+h4 {
+  font-size: 1.25vw;
+  margin: 0;
+  padding: 1vw;
+  text-align: left;
+  font-style: italic;
+}
+
+p {
+  font-size: 1.5vw;
+  margin: 0px;
+  font-weight: 600;
+  color: #774936;
+}
+
+#top{
+  color: #774936;
+  font-size: 2vw;
+  text-align: center;
+
+}
+
+.item {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 3.5vw;
+  margin: 3vw;
+  display: grid;
+  width: 25vw;
+  height: 28vw;
+  border: solid;
+  box-shadow:  0.5vw 0.5vw 4px #edc4b3;
+}
+
+img:hover{
+  opacity: 0.6;
+}
+
+
+.details {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.video {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.hidden{
+  display: none;
+}
+
+img{
+  height: 12vw;
+  width: 100%;
+  object-fit: cover;
+}
